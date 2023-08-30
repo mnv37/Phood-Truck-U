@@ -13,6 +13,9 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --orange: #D85E30;
+  --blue:#12D8EA;
+  --gray: #DDDDDD;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -331,9 +334,21 @@ template {
 /* =============
     Base
 ============= */
+body {
+  font-family: Londrina solid;
+  border-style: solid;
+  border-color: #D85E30;
+  border-width: 20px;
+  padding: 5px;
+}
+
 /* =============
     Typography
 ============= */
+body {
+  font-family: Londrina solid;
+}
+
 /* =============
     Buttons
 ============= */
@@ -360,9 +375,172 @@ textarea {
 /* =============
     Navigation
 ============= */
+#nav-container #burger-container button {
+  background-color: #12D8EA;
+  border: none;
+  color: #000000;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.25rem;
+  margin: 25px auto 0;
+}
+@media (min-width: 1024px) {
+  #nav-container #burger-container {
+    display: none;
+  }
+}
+
+#main-menu {
+  display: none;
+}
+@media (min-width: 1024px) {
+  #main-menu {
+    display: block;
+    font-family: Londrina Solid;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 1024px) {
+  ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+ul li {
+  list-style: none;
+  text-align: left;
+  padding: 20px;
+}
+@media (min-width: 1024px) {
+  ul li {
+    padding: 0px;
+  }
+}
+ul li a:link, ul li a:visited {
+  text-decoration: none;
+  color: #000000;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
 /* =============
     Header
 ============= */
 /* =============
     Footer
 ============= */
+#phood {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#index-img img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 15px;
+}
+
+img {
+  width: 267px;
+  height: 113px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+@media (min-width: 1024px) {
+  #support {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr;
+        grid-template-areas: "healthy phillymfa commissary" "legion  feed    generocity" "mobile   .         .      ";
+  }
+}
+
+#healthy {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#phillymfa {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#commissary {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#legion {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#feed {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#generocity {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#mobile {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+img {
+  width: 267px;
+  height: 113px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}

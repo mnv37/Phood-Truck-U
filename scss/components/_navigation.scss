@@ -1,3 +1,74 @@
 /* =============
     Navigation
 ============= */
+
+
+#nav-container {
+
+
+    #burger-container{
+       
+        button{
+
+            background-color: #12D8EA;
+            border: none;
+            color: #000000;
+            height: 50px;
+            width: 50px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: rem-calc(20);
+            margin: 25px auto 0;
+
+        }
+
+        @include lg{
+            display: none;
+            }
+        }
+    }
+
+    #main-menu {
+        display: none;
+
+        @include lg{
+            display: block;
+        font-family: Londrina Solid;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        }
+    }
+
+    ul{
+
+        @include lg{
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        li{
+            list-style: none;
+            text-align: left;
+            padding: 20px;
+         
+
+            @include lg {
+                padding: 0px;
+            }
+
+            a:link, a:visited{
+                text-decoration: none;
+                color:#000000;
+                transition: 0.25s;
+                }
+            }
+    }
+        
+    
+
+
