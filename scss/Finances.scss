@@ -1,0 +1,47 @@
+img
+{ width: 267px;
+   height: 113px;
+   flex-shrink: 0;
+
+}
+#Finances {
+    @include lg {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-areas:
+    "Guide Challenges Certificates"
+    "Budgeting PA .";
+    }
+}
+
+#Loan {
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#Best {
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+#Classes {
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+#Bottom {
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+#Questions {
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
