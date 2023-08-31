@@ -544,3 +544,83 @@ img {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
+
+@media (min-width: 1024px) {
+  #marketing {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr;
+        grid-template-areas: "crowdspring QSR toasttab" "chefstore joinposter uschamber" "menubly getbento shopify" "webrestaurant .    .    ";
+  }
+}
+
+#crowdspring {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#QSR {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#toasttab {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#chefstore {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#joinposter {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#uschamber {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#menubly {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#getbento {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#shopify {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#webrestaurant {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
