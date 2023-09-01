@@ -331,6 +331,30 @@ template {
 /* =============
     Base
 ============= */
+#phood {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#index-img img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 15px;
+}
+
 /* =============
     Typography
 ============= */
@@ -369,6 +393,30 @@ textarea {
 /* =============
     Insurance
 ============= */
+img {
+  width: 267px;
+  height: 113px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+@media (min-width: 1024px) {
+  #marketing {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr;
+        grid-template-areas: "crowdspring QSR toasttab" "chefstore joinposter uschamber" "menubly getbento shopify" "webrestaurant .    .    ";
+  }
+}
+
+#crowdspring {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
 /* =============
 Permits & Licenses
 ============= */

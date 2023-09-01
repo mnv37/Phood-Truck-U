@@ -2,4 +2,19 @@
     Base
 ============= */
 
+#phood {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#index-img {
+    img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding-top: 15px;
+    }
+
+}

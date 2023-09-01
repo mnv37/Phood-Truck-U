@@ -1,3 +1,29 @@
 /* =============
     Insurance
 ============= */
+
+img {
+    width: 267px;
+    height: 113px;
+    flex-shrink: 0;
+    }
+    
+#marketing {
+        @include lg {
+        display: grid;
+        grid-template-columns: 1fr, 1fr, 1fr;
+        grid-template-areas:
+        "crowdspring QSR toasttab"
+        "chefstore joinposter uschamber"
+        "menubly getbento shopify"
+        "webrestaurant .    .    ";
+        }
+    }
+    
+#crowdspring {
+        background-color: #DDDDDD;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+    
