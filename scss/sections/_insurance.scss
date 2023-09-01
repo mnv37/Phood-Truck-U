@@ -8,22 +8,51 @@ img {
     flex-shrink: 0;
     }
     
-#marketing {
+#insurance{
         @include lg {
         display: grid;
         grid-template-columns: 1fr, 1fr, 1fr;
         grid-template-areas:
-        "crowdspring QSR toasttab"
-        "chefstore joinposter uschamber"
-        "menubly getbento shopify"
-        "webrestaurant .    .    ";
+        "forbes flip investopedia"
+        "comparison typescosts .";
         }
     }
     
-#crowdspring {
+#forbes{
         background-color: #DDDDDD;
         padding: 20px;
         margin: 20px;
         text-align: center;
     }
+
+#flip{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#investopedia{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#comparison{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#typescosts{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+
     
