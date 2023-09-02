@@ -1,0 +1,46 @@
+/* =============
+    operating
+============= */
+
+img
+{ width: 267px;
+   height: 113px;
+   flex-shrink: 0;
+
+}
+
+#Operating{
+    @include lg {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-areas:
+    "Guide Challenges Certificates"
+    "Budgeting PA .";
+    }
+}
+
+#Challenges{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#Certificates{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+#Budgeting{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+#PA{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
