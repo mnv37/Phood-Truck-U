@@ -1,3 +1,99 @@
 /* =============
 Permits & Licenses
 ============= */
+
+img {
+    width: 267px;
+    height: 113px;
+    flex-shrink: 0;
+    }
+
+#permits{
+        @include lg {
+        display: grid;
+        grid-template-columns: 1fr, 1fr, 1fr;
+        grid-template-areas:
+        "fbl prepandserve npll"
+        "caterer planreview ownerchange"
+        "5permits mff cal"
+        "farmer fairs .";
+        }
+    }
+
+    #fbl{
+        background-color: #DDDDDD;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    #prepandserve{
+        background-color: #DDDDDD;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    #npll{
+        background-color: #DDDDDD;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    #caterer{
+        background-color: #DDDDDD;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    #planreview{
+        background-color: #DDDDDD;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    #ownerchange{
+        background-color: #DDDDDD;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    #5permits{
+        background-color: #DDDDDD;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    #mff{
+        background-color: #DDDDDD;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    #cal{
+        background-color: #DDDDDD;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    #farmer{
+        background-color: #DDDDDD;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    #fairs{
+        background-color: #DDDDDD;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+    
