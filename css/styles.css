@@ -13,6 +13,9 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --orange: #D85E30;
+  --blue:#12D8EA;
+  --gray: #DDDDDD;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -355,9 +358,21 @@ template {
   padding-top: 15px;
 }
 
+body {
+  font-family: Londrina solid;
+  border-style: solid;
+  border-color: #D85E30;
+  border-width: 20px;
+  padding: 5px;
+}
+
 /* =============
     Typography
 ============= */
+body {
+  font-family: Londrina solid;
+}
+
 /* =============
     Buttons
 ============= */
@@ -507,7 +522,35 @@ img {
   text-align: center;
 }
 
-#forbes {
+#fivepermits {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#mff {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#cal {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#farmer {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#fairs {
   background-color: #DDDDDD;
   padding: 20px;
   margin: 20px;
@@ -517,3 +560,220 @@ img {
 /* =============
 Vendors &  Partners
 ============= */
+img {
+  width: 267px;
+  height: 113px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+@media (min-width: 1024px) {
+  #vendors {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr;
+        grid-template-areas: "bestfoodtrucks roaminghunger foodtruckarmy" "phillyconnectionfoodtrucks findingvendors choosingsuppliers";
+  }
+}
+
+#bestfoodtrucks {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#roaminghunger {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#foodtruckarmy {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#phillyconnectionfoodtrucks {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#findingvendors {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#choosingsuppliers {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* =============
+    marketing
+============= */
+img {
+  width: 267px;
+  height: 113px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+@media (min-width: 1024px) {
+  #marketing {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr;
+        grid-template-areas: "crowdspring QSR toasttab" "chefstore joinposter uschamber" "menubly getbento shopify" "webrestaurant   .     .  ";
+  }
+}
+
+#crowdspring {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#QSR {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#toasttab {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#chefstore {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#joinposter {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#uschamber {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#menubly {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#getbento {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#shopify {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#webrestaurant {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* =============
+    support
+============= */
+img {
+  width: 267px;
+  height: 113px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+@media (min-width: 1024px) {
+  #support {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr;
+        grid-template-areas: "healthy phillymfa commissary" "legion  feed    generocity" "mobile   .         .      ";
+  }
+}
+
+#healthy {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#phillymfa {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#commissary {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#legion {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#feed {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#generocity {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#mobile {
+  background-color: #DDDDDD;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}

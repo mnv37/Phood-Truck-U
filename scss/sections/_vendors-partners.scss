@@ -1,3 +1,63 @@
 /* =============
 Vendors &  Partners
 ============= */
+img{
+    width: 267px;
+    height: 113px;
+    flex-shrink: 0;
+    }
+
+#vendors{
+    @include lg {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-areas:
+    "bestfoodtrucks roaminghunger foodtruckarmy"
+    "phillyconnectionfoodtrucks findingvendors choosingsuppliers";
+    }
+}
+
+#bestfoodtrucks{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#roaminghunger{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#foodtruckarmy{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#phillyconnectionfoodtrucks{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#findingvendors{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#choosingsuppliers{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+

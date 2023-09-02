@@ -1,0 +1,69 @@
+/* =============
+    support
+============= */
+
+img{ 
+    width: 267px;
+    height: 113px;
+    flex-shrink: 0;
+}
+
+#support{
+    @include lg {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-areas:
+    "healthy phillymfa commissary"
+    "legion  feed    generocity"
+    "mobile   .         .      ";
+    }
+}
+
+#healthy{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#phillymfa{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#commissary{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#legion{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#feed{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#generocity{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#mobile{
+    background-color: #DDDDDD;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}

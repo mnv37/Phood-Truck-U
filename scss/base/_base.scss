@@ -2,19 +2,27 @@
     Base
 ============= */
 
-#phood {
+#phood{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#index-img {
-    img {
+#index-img{
+    img{
     display: flex;
     width: 100%;
     height: auto;
     align-items: center;
     padding-top: 15px;
     }
-
 }
+
+body{
+    font-family: Londrina solid;
+    border-style: solid;
+    border-color: #D85E30;
+    border-width: 20px;
+    padding: 5px;
+}
+

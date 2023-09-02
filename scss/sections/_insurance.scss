@@ -2,14 +2,14 @@
     Insurance
 ============= */
 
-img {
+img{
     width: 267px;
     height: 113px;
     flex-shrink: 0;
     }
     
 #insurance{
-        @include lg {
+        @include lg{
         display: grid;
         grid-template-columns: 1fr, 1fr, 1fr;
         grid-template-areas:
