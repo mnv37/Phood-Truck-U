@@ -399,6 +399,134 @@ textarea {
 /* =============
     Navigation
 ============= */
+#nav-container #burger-container button {
+  background-color: #12D8EA;
+  border: none;
+  color: #000000;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.25rem;
+  margin: 25px auto 0;
+}
+@media (min-width: 1024px) {
+  #nav-container #burger-container {
+    display: none;
+  }
+}
+
+#main-menu {
+  display: none;
+}
+@media (min-width: 1024px) {
+  #main-menu {
+    display: block;
+    font-family: Londrina Solid;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 1024px) {
+  ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+ul li {
+  list-style: none;
+  text-align: left;
+  padding: 20px;
+}
+@media (min-width: 1024px) {
+  ul li {
+    padding: 0px;
+  }
+}
+ul li a:link, ul li a:visited {
+  text-decoration: none;
+  color: #000000;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+#burger-btn {
+  width: 60px;
+  height: 45px;
+  position: relative;
+  margin: 50px auto;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#burger-btn span {
+  display: block;
+  position: absolute;
+  height: 9px;
+  width: 100%;
+  background: #12D8EA;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+
+#burger-btn span:nth-child(1) {
+  top: 0px;
+}
+
+#burger-btn span:nth-child(2), #burger-btn span:nth-child(3) {
+  top: 18px;
+}
+
+#burger-btn span:nth-child(4) {
+  top: 36px;
+}
+
+#burger-btn.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+#burger-btn.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#burger-btn.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#burger-btn.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
 /* =============
     Header
 ============= */
