@@ -533,6 +533,11 @@ ul li a:link, ul li a:visited {
 /* =============
     Footer
 ============= */
+.validatorpic img {
+  width: 30px;
+  height: 30px;
+}
+
 /* =============
     Insurance
 ============= */
