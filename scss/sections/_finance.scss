@@ -3,11 +3,11 @@
 ============= */
 
 img
-{ width: 267px;
+{width: 267px;
    height: 113px;
    flex-shrink: 0;
-
 }
+
 #Finances {
     @include lg {
     display: grid;

@@ -6,6 +6,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    a:link, a:visited{
+        color: #000000;
+        text-decoration: none;
+        display: inline-block;
+        font-size: rem-calc(48);
+        margin-bottom: 8px;
+    }
+
+    a:hover, a:active{
+        color: #12D8EA;
+    }
 }
 
 #index-img{

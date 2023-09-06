@@ -345,6 +345,16 @@ template {
       -ms-flex-align: center;
           align-items: center;
 }
+#phood a:link, #phood a:visited {
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3rem;
+  margin-bottom: 8px;
+}
+#phood a:hover, #phood a:active {
+  color: #12D8EA;
+}
 
 #index-img img {
   display: -webkit-box;
@@ -399,7 +409,7 @@ textarea {
 /* =============
     Navigation
 ============= */
-#nav-container #burger-container button {
+#burger-container button {
   background-color: #12D8EA;
   border: none;
   color: #000000;
@@ -419,17 +429,22 @@ textarea {
   margin: 25px auto 0;
 }
 @media (min-width: 1024px) {
-  #nav-container #burger-container {
+  #burger-container {
     display: none;
   }
 }
 
-#main-menu {
+.showNavContainer {
+  display: block !important;
+}
+
+#nav-container {
   display: none;
 }
 @media (min-width: 1024px) {
-  #main-menu {
+  #nav-container {
     display: block;
+    width: 100%;
     font-family: Londrina Solid;
     font-style: normal;
     font-weight: 400;
@@ -438,32 +453,32 @@ textarea {
 }
 
 @media (min-width: 1024px) {
-  ul {
+  #main-menu ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+    -ms-flex-line-pack: center;
+        align-content: center;
     width: 100%;
     margin-top: 15px;
   }
 }
-ul li {
+#main-menu ul li {
   list-style: none;
-  text-align: left;
-  padding: 20px;
+  text-align: center;
 }
-@media (min-width: 1024px) {
-  ul li {
-    padding: 0px;
-  }
-}
-ul li a:link, ul li a:visited {
-  text-decoration: none;
+#main-menu ul li a:link, #main-menu ul li a:visited {
   color: #000000;
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+#main-menu ul li a:hover, #main-menu ul li a:active {
+  color: #12D8EA;
 }
 
 #burger-btn {

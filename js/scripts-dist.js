@@ -1,0 +1,1 @@
+let burgerBtn=document.querySelector("#burger-btn"),navContainer=document.querySelector("#nav-container"),canISeeTheMenu=!1;burgerBtn.addEventListener("click",(()=>{0==canISeeTheMenu?(navContainer.classList.add("showNavContainer"),canISeeTheMenu=!0):(navContainer.classList.remove("showNavContainer"),canISeeTheMenu=!1)}));
