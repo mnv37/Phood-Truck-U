@@ -365,6 +365,11 @@ template {
           justify-content: center;
   margin-top: -24px;
 }
+@media (min-width: 1024px) {
+  .pagetitle {
+    margin-top: 0px;
+  }
+}
 
 #index-img img {
   display: -webkit-box;

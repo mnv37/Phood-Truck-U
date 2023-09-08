@@ -24,6 +24,10 @@
     display:flex;
     justify-content: center;
     margin-top: -24px;
+
+    @include lg{
+        margin-top: 0px;
+    }
 }
 
 #index-img{
